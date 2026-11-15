@@ -4,7 +4,7 @@
         <any>2006</any>
         <genere>Fantasia</genere>
         <durada unitat="min">118</durada>
-        <actors principals>
+        <actors tipus="principals">
             <actor>Ivana Baquero</actor>
             <actor>Sergi López</actor>
         </actors>     
@@ -15,7 +15,7 @@
         <any>1989</any>
         <genere>Drama</genere>
         <durada unitat="min">128</durada>
-        <actors principals>
+        <actors tipus= "principals">
             <actor>Robin Williams</actor>
             <actor>Ethan Hawke</actor>
             <actor>Robert Sean Leonard</actor>
@@ -27,7 +27,7 @@
         <any>2014</any>
         <genere>Ciència-ficció</genere>
         <durada unitat="min">169</durada>
-        <actors principals>
+        <actors tipus= "principals">
             <actor>Matthew McConaughey</actor>
             <actor>Anne Hathaway</actor>
         </actors>     
