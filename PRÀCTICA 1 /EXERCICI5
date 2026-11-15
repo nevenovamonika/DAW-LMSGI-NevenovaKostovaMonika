@@ -1,0 +1,40 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "titol": "Netflix",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Quina sèrie o pel·licula has trobat a faltar dins el nostre catàleg?",
+          "tipus": "text_lliure"
+        },
+        {
+          "ordre": 2,
+          "text": "Quants de dies a la setmana mires Netflix?",
+          "tipus": "opcio_multiple",
+            "opcions": ["Cada dia" , "Entre 2 i 4 dies" , "Una vegada a la setmana" , "Esporàdicament"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titol": "Disney+",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Quina és la millor pel·licula que has vist darrerament a la nostra plataforma?",
+          "tipus": "text_lliure"
+        },
+        {
+          "ordre": 2,
+          "text": "Quin tipus de gènere mires més sovint?",
+          "tipus": "opcio_multiple",
+            "opcions": ["Comèdia" , "Terror" , "Ciència-ficció" , "Documentals"]
+        }
+      ]
+    }
+  ]
+}
