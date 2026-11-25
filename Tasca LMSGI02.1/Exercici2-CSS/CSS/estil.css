@@ -53,10 +53,10 @@ nav a:hover { /* Efecte hover als enllaços de navegació */
   text-decoration: underline;
 }
 
-/* 3. Contingut principal (MAIN - 70% AMPLADA) i articles */
+/* 3. Contingut principal (MAIN - 70%) i articles */
 main { 
   width: 70%;
-  padding: 25px 15px 25px 30px;
+  padding: 20px;
 }
 
 article { /* Targetes dels articles: fons blanc, vora esquerra 4px #27ae60 i ombra suau */
@@ -77,11 +77,10 @@ article p {
   margin-bottom: 0;
 }
 
-/* 4. Barra lateral (ASIDE - 28% AMPLADA) i llista */
+/* 4. Barra lateral (ASIDE - 28%) i llista */
 aside {
   width: 28%;
-  margin: 25px 30px 25px 0;
-  padding: 18px 22px;
+  padding: 20px;
   background-color: #ecf0f1;
   border-radius: 4px;
 }
