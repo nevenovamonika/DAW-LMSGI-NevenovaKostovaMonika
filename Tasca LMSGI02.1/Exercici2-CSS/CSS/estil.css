@@ -1,1 +1,120 @@
+/* 1. Estils generals i layout principal amb FLEXBOX */
+* {
+  box-sizing: border-box; 
+}
 
+body { /* Fem servir Flexbox al body amb wrap per col·locar header (100%),
+   main (70%) i aside (28%) en fila, i footer (100%) a sota */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ecf0f1;
+  color: #222222;
+  line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* 2. Capçalera (HEADER) i navegació horitzontal */
+header { 
+  width: 100%;
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover { /* Efecte hover als enllaços de navegació */
+  color: #27ae60;
+  text-decoration: underline;
+}
+
+/* 3. Contingut principal (MAIN - 70% AMPLADA) i articles */
+main { 
+  width: 70%;
+  padding: 25px 15px 25px 30px;
+}
+
+article { /* Targetes dels articles: fons blanc, vora esquerra 4px #27ae60 i ombra suau */
+  background-color: #ffffff;
+  border-left: 4px solid #27ae60;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 18px 22px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+article h2 { /* Títol dels articles en verd fosc */
+  margin-top: 0;
+  color: #1e8449;
+}
+
+article p {
+  margin-bottom: 0;
+}
+
+/* 4. Barra lateral (ASIDE - 28% AMPLADA) i llista */
+aside {
+  width: 28%;
+  margin: 25px 30px 25px 0;
+  padding: 18px 22px;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+}
+
+aside h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+aside ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+aside li {
+  margin-bottom: 8px;
+}
+
+aside li::marker { /* Punts de la llista en color #27ae60 */
+  color: #27ae60;
+  font-weight: bold;
+}
+
+/* 5. Peu de pàgina (FOOTER) */
+footer {
+  width: 100%;
+  background-color: #2c3e50;
+  color: #bdc3c7;
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 10px;
+}
+
+footer p {
+  margin: 0;
+}
